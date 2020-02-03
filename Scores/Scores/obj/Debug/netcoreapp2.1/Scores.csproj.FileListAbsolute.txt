@@ -1,0 +1,11 @@
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\bin\Debug\netcoreapp2.1\Scores.deps.json
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\bin\Debug\netcoreapp2.1\Scores.runtimeconfig.json
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\bin\Debug\netcoreapp2.1\Scores.runtimeconfig.dev.json
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\bin\Debug\netcoreapp2.1\Scores.dll
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\bin\Debug\netcoreapp2.1\Scores.pdb
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\obj\Debug\netcoreapp2.1\Scores.csprojAssemblyReference.cache
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\obj\Debug\netcoreapp2.1\Scores.csproj.CoreCompileInputs.cache
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\obj\Debug\netcoreapp2.1\Scores.AssemblyInfoInputs.cache
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\obj\Debug\netcoreapp2.1\Scores.AssemblyInfo.cs
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\obj\Debug\netcoreapp2.1\Scores.dll
+C:\Users\Student\C-Sharp-Projects\C-Sharp-projects\Scores\Scores\obj\Debug\netcoreapp2.1\Scores.pdb

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CarInsuranceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'CarInsurance.dbo.ClientRecord' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ClientRecord">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="DOB" Type="date" Nullable="false" />
+    <Property Name="CarYear" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CarMake" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CarModel" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DUI" Type="bit" Nullable="false" />
+    <Property Name="SpeedingTickets" Type="int" Nullable="false" />
+    <Property Name="FullCoverage" Type="bit" Nullable="false" />
+    <Property Name="Quote" Type="int" />
+  </EntityType>
+  <EntityContainer Name="CarInsuranceModelStoreContainer">
+    <EntitySet Name="ClientRecord" EntityType="Self.ClientRecord" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ClientRecord].[Id] AS [Id], 
+    [ClientRecord].[FirstName] AS [FirstName], 
+    [ClientRecord].[LastName] AS [LastName], 
+    [ClientRecord].[EmailAddress] AS [EmailAddress], 
+    [ClientRecord].[DOB] AS [DOB], 
+    [ClientRecord].[CarYear] AS [CarYear], 
+    [ClientRecord].[CarMake] AS [CarMake], 
+    [ClientRecord].[CarModel] AS [CarModel], 
+    [ClientRecord].[DUI] AS [DUI], 
+    [ClientRecord].[SpeedingTickets] AS [SpeedingTickets], 
+    [ClientRecord].[FullCoverage] AS [FullCoverage], 
+    [ClientRecord].[Quote] AS [Quote]
+    FROM [dbo].[ClientRecord] AS [ClientRecord]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,36 @@
+﻿@using CarInsuranceProject.ViewModels
+@model List<ClientRecordVm>
+
+
+<div class=" = " row no-gutters m-3">
+    <div class=" card col-sm-12 col-lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">Sign-ups</h5>
+        </div>
+        <div class="card-body">
+            @foreach (var client in Model)
+            {
+                
+                
+                    
+            <div class="row mb-3">
+                <div class="col-2">
+                    @client.FirstName
+                </div>
+                <div class="col">
+                    @client.LastName
+                </div>
+                <div class="col">
+                    @client.EmailAddress
+                </div>
+                <div class="col">
+                    @client.Quote
+                </div>
+            </div>
+                
+
+            }
+
+        </div>
+    </div>
+</div>
