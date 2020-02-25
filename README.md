@@ -1,5 +1,5 @@
 # C-Sharp-projects
-This is a collection of projects i worked on while at The Tech Academy.
+This is a collection of projects I worked on while at The Tech Academy.
 
 ## Images from the car insurance project
 shown below is some of the business logic for the quote given to the user.
