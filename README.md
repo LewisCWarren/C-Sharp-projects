@@ -1,4 +1,4 @@
-# C-Sharp-projects
+# C-Sharp-Projects
 This is a collection of projects I worked on while at The Tech Academy.
 
 ## Images from the car insurance project
