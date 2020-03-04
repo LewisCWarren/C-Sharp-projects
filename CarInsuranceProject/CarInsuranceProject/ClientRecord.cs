@@ -11,7 +11,8 @@ namespace CarInsuranceProject
 {
     using System;
     using System.Collections.Generic;
-    
+    //This class was auto generated using Entity Framework, taking the fields from the SQL database and converting them to their C# 
+    //counterpart
     public partial class ClientRecord
     {
         public int Id { get; set; }
